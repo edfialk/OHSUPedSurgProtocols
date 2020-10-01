@@ -1,0 +1,68 @@
+@import "~@nativescript/theme/core";
+@import "~@nativescript/theme/default";
+
+// Place any CSS rules you want to apply on both iOS and Android here.
+// This is where the vast majority of your CSS code goes.
+
+// Font icon class
+.fab {
+    font-family: "Font Awesome 5 Brands", "fa-brands-400";
+    font-weight: 400;
+}
+
+.fas {
+    font-family: "Font Awesome 5 Free", "fa-solid-900";
+    font-weight: 900;
+}
+
+.far {
+    font-family: "Font Awesome 5 Free", "fa-regular-400";
+    font-weight: 400;
+}
+
+.action-image {
+    width: 54;
+    height: 54;
+    vertical-align: center;
+}
+
+.action-label {
+    font-size: 20;
+    vertical-align: center;
+}
+
+label {
+    padding-left: 15;
+    padding-right: 15;
+    color: black;
+    font-size: 16;
+}
+.indent {
+    margin-left: 10;
+}
+.indent-2 {
+    margin-left: 20;
+}
+.indent-3 {
+    margin-left: 30;
+}
+.indent-4 {
+    margin-left: 40;
+}
+.ul {
+    text-decoration: underline;
+}
+.bold {
+    font-weight: bold;
+}
+.italic {
+    font-style: italic;
+}
+.gap {
+    margin-top: 10;
+    margin-bottom: 10;
+}
+
+.h2 {
+    font-weight: bold;
+}
